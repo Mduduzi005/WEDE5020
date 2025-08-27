@@ -1,0 +1,54 @@
+<!-- Booking Section -->
+<section id="booking">
+    <div>
+        <h2>Book a Consultation</h2>
+        <p>Choose a date and tell us what you need. We'll confirm by email.</p>
+        <form>
+            <div>
+                <div>
+                    <label>Full Name
+                        <input type="text" name="name" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Email
+                        <input type="email" name="email" required>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Phone
+                        <input type="tel" name="phone">
+                    </label>
+                </div>
+                <div>
+                    <label>Preferred Date
+                        <input type="date" name="date" required>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label>Service
+                    <select name="service" required>
+                        <option value="">Select a service</option>
+                        <option>IT Consulting</option>
+                        <option>Hardware Repairs</option>
+                        <option>Software Debugging</option>
+                        <option>Small Business Support</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Details
+                    <textarea name="details" rows="5" placeholder="Briefly describe the issue or request..." required></textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Request Booking</button>
+                <a href="mailto:info@techfix.co.za?subject=Booking%20Request%20from%20Website">Email Instead</a>
+            </div>
+            <p>No payment is taken on this page.</p>
+        </form>
+    </div>
+</section>
