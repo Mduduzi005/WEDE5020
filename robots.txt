@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mduduzi005.github.io/WEDE5020/sitemap.xml
