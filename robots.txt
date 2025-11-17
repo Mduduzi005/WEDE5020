@@ -1,4 +1,15 @@
 User-agent: *
-Allow: /
+Allow: /home.html
+Allow: /about.html
+Allow: /services.html
+Allow: /contact.html
+Allow: /enquiry.html
+
+# Block system folders (assignment requirement)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /scripts/
 
 Sitemap: https://mduduzi005.github.io/WEDE5020/sitemap.xml
+
