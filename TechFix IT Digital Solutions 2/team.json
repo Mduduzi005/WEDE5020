@@ -1,0 +1,30 @@
+[
+    {
+        "name": "John M.",
+        "role": "IT Consultant & Network Specialist",
+        "description": "Expert in IT strategy, cloud solutions and network optimization.",
+        "image": "Team/John.jpg",
+        "category": "consulting"
+    },
+    {
+        "name": "Thandi N.",
+        "role": "Hardware Repair Expert",
+        "description": "Provides reliable hardware repairs and diagnostics.",
+        "image": "Team/Thandi.jpg",
+        "category": "hardware"
+    },
+    {
+        "name": "Michael K.",
+        "role": "Software Debugging Specialist",
+        "description": "Fixes bugs, improves performance, strengthens security.",
+        "image": "Team/Micheal K..jpg",
+        "category": "software"
+    },
+    {
+        "name": "Lebo S.",
+        "role": "Customer Support Coordinator",
+        "description": "Manages client communication and support services.",
+        "image": "Team/Lebo S..jpg",
+        "category": "business"
+    }
+]
