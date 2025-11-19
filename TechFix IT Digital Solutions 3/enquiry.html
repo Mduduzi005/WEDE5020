@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Enquiries — TechFix IT Solutions</title>
+  <meta name="description" content="Submit an enquiry about TechFix IT Solutions services including IT consulting, hardware repairs, software debugging, and business IT support.">
+  <meta name="keywords" content="TechFix enquiries, IT support Soweto, computer repair pricing, service enquiry">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <img src="images/TechFix IT Digital Solutions logo.png" alt="TechFix Logo" class="logo">
+  <div id="hamburger" class="hamburger" role="button" aria-label="Toggle menu" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<nav id="mobileMenu" class="mobile-nav" aria-label="Primary menu">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="enquiry.html" class="active">Enquiry</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<input 
+    type="text" 
+    id="quickSearch" 
+    placeholder="Search pages… (home, about, services)" 
+    class="search-box">
+    
+<!-- INTRO -->
+<section class="container reveal-init">
+  <h2>Have a Question?</h2>
+  <p>We’re here to help! Use the form below to send us your enquiry. Whether you’re a student, a home office user, or a small business owner, our team will guide you with the right solution and estimated costs.</p>
+</section>
+
+
+<!-- ENQUIRY FORM -->
+<section class="container reveal-init">
+  <h2>Submit Your Enquiry</h2>
+
+  <form id="enquiryForm">
+
+    <label>Full Name:<br>
+      <input type="text" name="name" required minlength="3">
+    </label>
+
+    <label>Email:<br>
+      <input type="email" name="email" required>
+    </label>
+
+    <label>Phone Number:<br>
+      <input type="tel" name="phone" placeholder="0812345678" pattern="^[0-9]{10}$">
+    </label>
+
+    <label>Service of Interest:<br>
+      <select name="service" id="serviceSelect" required>
+        <option value="">Select one</option>
+        <option value="consulting">IT Consulting</option>
+        <option value="hardware">Hardware Repairs</option>
+        <option value="software">Software Debugging</option>
+        <option value="business">Small Business Support</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+
+    <label>Preferred Contact Method:<br>
+      <input type="radio" name="contact" value="Email" checked> Email
+      <input type="radio" name="contact" value="Phone"> Phone
+    </label>
+
+    <label>Subject:<br>
+      <input type="text" name="subject" required>
+    </label>
+
+    <label>Message:<br>
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+
+    <button type="submit">Send Enquiry</button>
+
+    <!-- Result box -->
+    <div id="enquiryResponse" class="container" style="margin-top:20px; display:none;"></div>
+
+  </form>
+</section>
+
+
+<!-- WHY SEND ENQUIRY -->
+<section class="container reveal-init">
+  <h2>Why Send an Enquiry?</h2>
+  <ul>
+    <li>✔ Get personalized IT advice</li>
+    <li>✔ Free initial consultation for most services</li>
+    <li>✔ Clear pricing estimates for your request</li>
+    <li>✔ Fast response — usually within 24 hours</li>
+  </ul>
+</section>
+
+
+<!-- RESPONSE PROMISE -->
+<section class="container reveal-init">
+  <h2>Our Response Promise</h2>
+  <p>We aim to respond to enquiries within <strong>24 hours (weekdays)</strong>. For urgent cases, call us directly at <a href="tel:+27100000000">+27 10 000 0000</a>.</p>
+</section>
+
+
+<footer>
+  <p>© 2025 TechFix IT Solutions. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
